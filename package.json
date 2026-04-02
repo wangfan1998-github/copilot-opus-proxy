@@ -1,0 +1,15 @@
+{
+  "name": "copilot-opus-proxy",
+  "version": "0.1.0",
+  "description": "A small local proxy that exposes GitHub Copilot as an Anthropic Messages API endpoint.",
+  "type": "module",
+  "private": false,
+  "scripts": {
+    "start": "node src/index.js",
+    "login": "node src/index.js login",
+    "list": "node src/index.js list"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
